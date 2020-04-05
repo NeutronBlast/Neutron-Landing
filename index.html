@@ -21,100 +21,359 @@
 <body>
 
     <!-- Navbar -->
-    <nav>
-        <div class="nav-wrapper teal">
-            <!-- Your logo here! -->
-            <a href="#" class="brand-logo ml-nav-4 mt-2">
-                <img src="./img/Logo.png" class="responsive-img" alt="" width="100" height="100">
-            </a>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper teal">
+                <!-- Your logo here! -->
+                <a href="#" class="brand-logo ml-nav-4 mt-2">
+                    <img src="./img/Logo.png" class="responsive-img" alt="" width="100" height="100">
+                </a>
 
-            <!-- Trigger button for collapsible menu on phone view -->
-            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">LINK</a></li>
-                <li><a href="#">LINK</a></li>
-            </ul>
-            
-            <!-- Menu that will be shown on collapsible menu only -->
-            <ul class="sidenav" id="menu-responsive">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">LINK</a></li>
-                <li><a href="#">LINK</a></li>
-            </ul>
-        </div>
-    </nav>
+                <!-- Trigger button for collapsible menu on phone view -->
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#testimonials">TESTIMONIALS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+
+                <!-- Menu that will be shown on collapsible menu only -->
+                <ul class="sidenav" id="menu-responsive">
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#features">LINK</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#testimonials">TESTIMONIALS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <!-- Slider with images, you can show off amazing features -->
 
-    <div class="row-full">
-        <div class="col s12">
-            <div class="slider">
-                <ul class="slides">
+    <section id="home" class="scrollspy">
 
-                    <!-- First image -->
-                    <li>
-                        <img src="./img/stock-1.jpg" alt="">
+        <div class="row-full">
+            <div class="col s12">
+                <div class="slider">
+                    <ul class="slides">
 
-                        <div class="caption right-align">
-                            <div class="row">
-                                <div class="col s12 m6 l6">
+                        <!-- First image -->
+                        <li>
+                            <img src="./img/stock-1.jpg" alt="">
+
+                            <div class="caption right-align">
+                                <div class="row">
+                                    <div class="col s12 m6 l6">
+                                    </div>
+                                    <div class="col s12 m6 l6">
+                                        <h4 class="black-text neutron-title-center">Welcome to our business</h4>
+                                        <p class="justify-text black-text">Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing elit. Quo eos minus commodi animi sed dicta blanditiis eligendi
+                                            reprehenderit error distinctio, sunt laborum quae quasi molestias qui
+                                            veritatis
+                                            vel libero. Beatae.</p>
+                                        <a class="btn btn-block" href="#about">Check information</a>
+                                    </div>
                                 </div>
-                                <div class="col s12 m6 l6">
-                                    <h4 class="black-text neutron-title-center">Lorem ipsum dolor sit amet.</h4>
-                                    <p class="text-justify black-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo eos minus commodi animi sed dicta blanditiis eligendi reprehenderit error distinctio, sunt laborum quae quasi molestias qui veritatis vel libero. Beatae.</p>
-                                    <button class="btn btn-block">action</button>
-                                </div>
+
                             </div>
-                            
-                        </div>
-                    </li>
-                    
-
-                    <!-- Second image -->
-
-                    <li>
-                        <img src="./img/stock-2.jpg" alt="">
-
-                        <div class="caption left-align justify-end">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, voluptates?
-                            </h3>
-                        </div>
-                    </li>
-
-                    <!-- Third image -->
-                    <li>
-                        <img src="./img/stock-2.jpg" alt="">
-
-                        <div class="caption left-align">
-                            <div class="row">
-                                <div class="col s12 m6 l6">
-                                    <h4 class="black-text neutron-title-center">Lorem ipsum dolor sit amet.</h4>
-                                    <p class="text-justify black-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo eos minus commodi animi sed dicta blanditiis eligendi reprehenderit error distinctio, sunt laborum quae quasi molestias qui veritatis vel libero. Beatae.</p>
-                                    <button class="btn btn-block">action</button>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </li>
-                    
-
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Section that goes after the slide -->
+    <section class="after-slide scrollspy" id="about">
+        <div class="container ">
+            <h3 class="black-text neutron-title center-align">About us</h3>
+            <p class="black-text justify-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium iste
+                omnis dolores quidem dignissimos! Voluptatibus, autem! Doloribus totam ut quisquam sed, autem
+                perspiciatis magni ullam modi voluptatem error cumque saepe molestiae hic similique quasi beatae. Facere
+                quam atque at consectetur saepe incidunt perspiciatis aliquam aspernatur, veritatis repellat impedit
+                culpa praesentium! Dicta itaque, sapiente veniam quo laborum tenetur est maiores eligendi sed incidunt
+                aliquam! Recusandae rem eos corrupti officia laboriosam suscipit dolorem necessitatibus, porro quas,
+                dolore dolor voluptatibus. Fuga vitae iste odio? Expedita eius culpa, qui laudantium eos corrupti quod
+                dolor quis, dicta laboriosam quo quos et quaerat asperiores id ducimus.</p>
+
+            <!-- Team -->
+
+            <h5 class="black-text neutron-title center-align">Our team</h5>
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle teal">computer</i>
+                            <span class="title">Frank Hesse</span>
+                            <p>Software Engineer<br>
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle teal">assessment</i>
+                            <span class="title">Felix Schmidt</span>
+                            <p>Accountant<br>
+                            </p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle teal">code</i>
+                            <span class="title">Edward Meyer</span>
+                            <p>Front-end Developer<br>
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col s12 m6 l6">
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle teal">code</i>
+                            <span class="title">Norman Atomic</span>
+                            <p>Back-end Developer<br>
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle teal">brush</i>
+                            <span class="title">Omar Hernandez</span>
+                            <p>Graphic Designer<br>
+                            </p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle teal">wifi</i>
+                            <span class="title">Jack Russell</span>
+                            <p>Network Administrator<br>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Amazing feature #1 -->
+
+    <section id="features" class="scrollspy">
+        <div class="teal-section">
+            <div class="container section">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <h3 class="white-text neutron-title center-align">Fully responsive</h3>
+                        <p class="white-text justify-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+                            maiores dolor eveniet nihil doloribus dignissimos consectetur qui expedita, ullam, ea aut
+                            esse quaerat incidunt magnam dicta obcaecati fugit quo? Natus excepturi necessitatibus
+                            ipsum, maxime nemo dolorem quibusdam. At iusto eius, possimus aliquam adipisci eaque eos
+                            beatae, pariatur nesciunt ea provident necessitatibus voluptates quas iure numquam quidem
+                            quam debitis quo, ducimus vitae labore accusamus! Cumque ex tempore, aliquid architecto odio
+                            temporibus sequi soluta qui et repudiandae atque laborum? Cum voluptates ab accusamus quis
+                            sed ex aliquid distinctio accusantium libero! Incidunt facilis aliquam natus quos esse
+                            veniam nam molestiae minus voluptatem cupiditate.</p>
+                    </div>
+
+                    <div class="col s12 m6 l6 mt-3">
+                        <img src="./img/stock-2.jpg" alt="Example Image" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amazing feature #2 -->
+        <div class="container section">
+            <div class="row">
+                <div class="col s12 m6 l6 mt-8">
+                    <img src="./img/stock-3.jpg" alt="Example Image" class="responsive-img">
+                </div>
+                <div class="col s12 m6 l6">
+                    <h3 class="black-text neutron-title center-align">Made with Materialize 1.0</h3>
+                    <p class="black-text justify-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+                        maiores dolor eveniet nihil doloribus dignissimos consectetur qui expedita, ullam, ea aut
+                        esse quaerat incidunt magnam dicta obcaecati fugit quo? Natus excepturi necessitatibus
+                        ipsum, maxime nemo dolorem quibusdam. At iusto eius, possimus aliquam adipisci eaque eos
+                        beatae, pariatur nesciunt ea provident necessitatibus voluptates quas iure numquam quidem
+                        quam debitis quo, ducimus vitae labore accusamus! Cumque ex tempore, aliquid architecto odio
+                        temporibus sequi soluta qui et repudiandae atque laborum? Cum voluptates ab accusamus quis
+                        sed ex aliquid distinctio accusantium libero!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amazing feature #3 -->
+        <div class="teal-section">
+            <div class="container section">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <h3 class="white-text neutron-title center-align">Easy to use and customize</h3>
+                        <p class="white-text justify-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+                            maiores dolor eveniet nihil doloribus dignissimos consectetur qui expedita, ullam, ea aut
+                            esse quaerat incidunt magnam dicta obcaecati fugit quo? Natus excepturi necessitatibus
+                            ipsum, maxime nemo dolorem quibusdam. At iusto eius, possimus aliquam adipisci eaque eos
+                            beatae, pariatur nesciunt ea provident necessitatibus voluptates quas iure numquam quidem
+                            quam debitis quo, ducimus vitae labore accusamus! Cumque ex tempore, aliquid architecto odio
+                            temporibus sequi soluta qui et repudiandae atque laborum? Cum voluptates ab accusamus quis
+                            sed ex aliquid distinctio accusantium libero! Incidunt facilis aliquam natus quos esse
+                            veniam nam molestiae minus voluptatem cupiditate.</p>
+                    </div>
+
+                    <div class="col s12 m6 l6 mt-3">
+                        <img src="./img/stock-4.jpg" alt="Example Image" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="scrollspy">
+        <div class="container">
+            <h3 class="black-text neutron-title center-align">Services</h3>
+            <p class="justify-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam blanditiis illum eaque
+                facere recusandae. Dolores laboriosam est quia a facere velit eius officiis maiores maxime enim
+                explicabo qui at libero fugit aut in, sed unde aliquid delectus odit repellat placeat quas ad!
+                Laboriosam placeat, accusantium soluta nostrum officiis quis accusamus explicabo reprehenderit culpa,
+                doloribus fugiat laborum. Nihil nobis obcaecati, dolorum iure laudantium veritatis culpa sequi
+                voluptatibus asperiores eligendi ratione dolor quod iusto voluptates tempora ut reprehenderit vero id
+                consequuntur molestias ipsa veniam. Delectus et ab nam perspiciatis, assumenda accusantium eligendi ex
+                nulla totam reiciendis quae dolorem facere rem eaque. Id?</p>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card card-serv teal darken-3">
+                        <div class="card-content white-text card-icon">
+                            <i class="large material-icons center-align">shopping_cart</i>
+                            <h5 class="neutron-title">Service 1</h5>
+                            <p class="justify-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, cum.
+                                Accusantium unde similique porro tenetur. Necessitatibus quibusdam earum aut reiciendis
+                                distinctio quas. Vel numquam excepturi ipsam ex minus, cupiditate veniam!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second card -->
+
+                <div class="col s12 m6 l4">
+                    <div class="card card-serv teal darken-3">
+                        <div class="card-content white-text card-icon">
+                            <i class="large material-icons center-align">work</i>
+                            <h5 class="neutron-title">Service 2</h5>
+                            <p class="justify-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                                animi. Reprehenderit enim provident voluptatem perferendis id voluptates nisi odit
+                                tempore consectetur, veniam, aliquam nihil placeat, atque dolorum animi consequuntur
+                                eligendi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third card -->
+
+                <div class="col s12 m6 l4">
+                    <div class="card card-serv teal darken-3">
+                        <div class="card-content white-text card-icon">
+                            <i class="large material-icons center-align">file_copy</i>
+                            <h5 class="neutron-title">Service 3</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officiis quo, suscipit
+                                exercitationem consequatur quae eveniet, debitis cumque nostrum eos dolor accusamus
+                                rerum mollitia magni aperiam commodi. Ad, optio et.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="scrollspy">
+        <div class="teal-section">
+            <div class="container section">
+                <h3 class="white-text neutron-title center-align">Projects</h3>
+                <p class="justify-text white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+                    expedita fugiat numquam veritatis, libero neque assumenda itaque sit dignissimos, est ipsam corporis
+                    nesciunt rerum et inventore. Placeat rerum voluptatem tempore quaerat vero cupiditate autem
+                    quibusdam doloribus. Totam mollitia quo beatae suscipit maxime rerum dolor sit doloremque cum enim,
+                    placeat officia vitae porro quas, autem eos nemo nesciunt! Aut in ad nulla nisi facilis perspiciatis
+                    voluptatem sed ipsum! Ut architecto asperiores amet at sapiente dicta aut exercitationem tempore
+                    distinctio magni voluptatum neque sint nobis, facere possimus nesciunt harum dolorem, pariatur
+                    molestias provident ullam. Tempore, vel autem totam aliquam molestiae ducimus et.</p>
+                <div class="row">
+                    <div class="col s12 m6 l4">
+                        <div class="card card-proj">
+                            <div class="card-image">
+                                <img src="./img/stock-5.jpg">
+                            </div>
+                            <div class="card-content">
+                                <p class="justify-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                                    ducimus accusantium eum repellendus veritatis soluta optio sint animi, ipsa,
+                                    perferendis eaque illum, asperiores laudantium eius aliquam modi ex ut quos?</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#" class="teal-text">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6 l4">
+                        <div class="card card-proj">
+                            <div class="card-image">
+                                <img src="./img/stock-6.jpg">
+                            </div>
+                            <div class="card-content">
+                                <p class="justify-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                                    reprehenderit officia assumenda nemo rerum quidem et itaque illum fugiat fugit
+                                    similique autem voluptate, delectus, excepturi atque, veritatis eum nobis? Odio?</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#" class="teal-text">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6 l4">
+                        <div class="card card-proj">
+                            <div class="card-image">
+                                <img src="./img/stock-7.jpg">
+                            </div>
+                            <div class="card-content">
+                                <p class="justify-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Necessitatibus quasi ut sit fugiat, itaque expedita impedit, provident id,
+                                    perferendis laboriosam fugit veniam error maxime voluptatem. Aliquid commodi
+                                    veritatis suscipit blanditiis.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#" class="teal-text">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="application/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             M.AutoInit();
 
             var elems = document.querySelectorAll('.slider');
             var instances = M.Slider.init(elems, {
-                height: 600,
+                height: 650,
             });
+
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems, {
+                scrollOffset: 100,
+            });
+
+
         });
     </script>
 </body>

@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
     font-family: "Segoe-UI";
     src: url(../fonts/Segoe-UI.ttf);
 }
@@ -9,59 +9,59 @@
     margin-top: 4px;
 }
 
-.mt-2{
+.mt-2 {
     margin-top: 8px;
 }
 
-.mt-3{
+.mt-3 {
     margin-top: 12px;
 }
 
-.mt-4{
+.mt-4 {
     margin-top: 16px;
 }
 
-.mt-5{
+.mt-5 {
     margin-top: 20px;
 }
 
-.mt-6{
+.mt-6 {
     margin-top: 24px;
 }
 
-.mt-7{
+.mt-7 {
     margin-top: 28px;
 }
 
-.mt-8{
+.mt-8 {
     margin-top: 32px;
 }
 
-.mt-9{
+.mt-9 {
     margin-top: 36px;
 }
 
-.mt-10{
+.mt-10 {
     margin-top: 40px;
 }
 
-.mt-11{
+.mt-11 {
     margin-top: 44px;
 }
 
-.mt-12{
+.mt-12 {
     margin-top: 48px;
 }
 
-.mt-n-1{
+.mt-n-1 {
     margin-top: -4px;
 }
 
-.mt-n-2{
+.mt-n-2 {
     margin-top: -8px;
 }
 
-.mt-n-3{
+.mt-n-3 {
     margin-top: -12px;
 }
 
@@ -72,71 +72,71 @@
     margin-left: 4px;
 }
 
-.ml-2{
+.ml-2 {
     margin-left: 8px;
 }
 
-.ml-3{
+.ml-3 {
     margin-left: 12px;
 }
 
-.ml-4{
+.ml-4 {
     margin-left: 16px;
 }
 
-.ml-5{
+.ml-5 {
     margin-left: 20px;
 }
 
-.ml-6{
+.ml-6 {
     margin-left: 24px;
 }
 
-.ml-7{
+.ml-7 {
     margin-left: 28px;
 }
 
-.ml-8{
+.ml-8 {
     margin-left: 32px;
 }
 
-.ml-9{
+.ml-9 {
     margin-left: 36px;
 }
 
-.ml-10{
+.ml-10 {
     margin-left: 40px;
 }
 
-.ml-11{
+.ml-11 {
     margin-left: 44px;
 }
 
-.ml-12{
+.ml-12 {
     margin-left: 48px;
 }
 
-.ml-n-1{
+.ml-n-1 {
     margin-left: -4px;
 }
 
-.ml-n-2{
+.ml-n-2 {
     margin-left: -8px;
 }
 
-.ml-n-3{
+.ml-n-3 {
     margin-left: -12px;
 }
 
 /* Margin right */
-.mr-n-3{
+.mr-n-3 {
     margin-right: -12px;
 }
 
 /* Margin for navbar */
-@media (min-width: 993px){
+@media (min-width: 993px) {
 
-    .ml-nav-4{
+    .ml-nav-4 {
         margin-left: 16px;
     }
 }
@@ -147,60 +147,102 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-  }
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .container-alt {
-      width: 750px;
+        width: 750px;
     }
-  }
-  @media (min-width: 992px) {
+}
+
+@media (min-width: 992px) {
     .container-alt {
-      width: 970px;
+        width: 970px;
     }
-  }
-  @media (min-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
     .container-alt {
-      width: 1170px;
+        width: 1170px;
     }
-  }
+}
 
 
 /* Full width container */
-.row-full{
+.row-full {
     width: 100vw;
     position: relative;
     margin-left: -50vw;
     height: 100px;
     left: 50%;
-   }
+}
+
+/* Navbar */
+a.active {
+    background-color: #00796b;
+  }
+
 /* Brand Logo */
 
-.brand-logo{
-    z-index: 1000 !important;
-}
 
 
 /* Slide */
 .slider .indicators .indicator-item.active {
     background-color: #03e0a0;
-  }
+}
 
-  .slider .slides li .caption {
+.slider .slides li .caption {
     top: 7% !important;
-  }
+}
 
-  .btn-block {
+.btn-block {
     width: 100%;
-    }
+}
 
 /* Titles */
-.neutron-title{
+.neutron-title {
     font-family: "Segoe-UI";
     text-transform: uppercase !important;
 }
 
-.neutron-title-center{
+.neutron-title-center {
     font-family: "Segoe-UI";
     text-transform: uppercase !important;
     text-align: center !important;
+}
+
+/* After the slide, material design's slider has absolute positioning so we need some extra spacing for the next section */
+.after-slide{
+    margin-top: 600px;
+}
+
+.teal-section{
+    background-color: #00796b;
+    margin-bottom: 50px;
+}
+
+/* Card */
+.card-icon{
+    text-align: center;
+}
+
+.card-serv{
+    min-height: 400px;
+    border-radius: 1em/1em;
+}
+
+.card-serv:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-proj:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.justify-text{
+    text-align: justify;
+}
+
+body{
+    overflow-x: hidden;
 }
