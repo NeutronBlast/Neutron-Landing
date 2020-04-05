@@ -1,0 +1,206 @@
+@font-face{
+    font-family: "Segoe-UI";
+    src: url(../fonts/Segoe-UI.ttf);
+}
+
+/* Margin top */
+
+.mt-1 {
+    margin-top: 4px;
+}
+
+.mt-2{
+    margin-top: 8px;
+}
+
+.mt-3{
+    margin-top: 12px;
+}
+
+.mt-4{
+    margin-top: 16px;
+}
+
+.mt-5{
+    margin-top: 20px;
+}
+
+.mt-6{
+    margin-top: 24px;
+}
+
+.mt-7{
+    margin-top: 28px;
+}
+
+.mt-8{
+    margin-top: 32px;
+}
+
+.mt-9{
+    margin-top: 36px;
+}
+
+.mt-10{
+    margin-top: 40px;
+}
+
+.mt-11{
+    margin-top: 44px;
+}
+
+.mt-12{
+    margin-top: 48px;
+}
+
+.mt-n-1{
+    margin-top: -4px;
+}
+
+.mt-n-2{
+    margin-top: -8px;
+}
+
+.mt-n-3{
+    margin-top: -12px;
+}
+
+/* Margin left */
+
+
+.ml-1 {
+    margin-left: 4px;
+}
+
+.ml-2{
+    margin-left: 8px;
+}
+
+.ml-3{
+    margin-left: 12px;
+}
+
+.ml-4{
+    margin-left: 16px;
+}
+
+.ml-5{
+    margin-left: 20px;
+}
+
+.ml-6{
+    margin-left: 24px;
+}
+
+.ml-7{
+    margin-left: 28px;
+}
+
+.ml-8{
+    margin-left: 32px;
+}
+
+.ml-9{
+    margin-left: 36px;
+}
+
+.ml-10{
+    margin-left: 40px;
+}
+
+.ml-11{
+    margin-left: 44px;
+}
+
+.ml-12{
+    margin-left: 48px;
+}
+
+.ml-n-1{
+    margin-left: -4px;
+}
+
+.ml-n-2{
+    margin-left: -8px;
+}
+
+.ml-n-3{
+    margin-left: -12px;
+}
+
+/* Margin right */
+.mr-n-3{
+    margin-right: -12px;
+}
+
+/* Margin for navbar */
+@media (min-width: 993px){
+
+    .ml-nav-4{
+        margin-left: 16px;
+    }
+}
+
+/* Alternative container which is less spacing than materialize CSS container */
+.container-alt {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container-alt {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container-alt {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container-alt {
+      width: 1170px;
+    }
+  }
+
+
+/* Full width container */
+.row-full{
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 100px;
+    left: 50%;
+   }
+/* Brand Logo */
+
+.brand-logo{
+    z-index: 1000 !important;
+}
+
+
+/* Slide */
+.slider .indicators .indicator-item.active {
+    background-color: #03e0a0;
+  }
+
+  .slider .slides li .caption {
+    top: 7% !important;
+  }
+
+  .btn-block {
+    width: 100%;
+    }
+
+/* Titles */
+.neutron-title{
+    font-family: "Segoe-UI";
+    text-transform: uppercase !important;
+}
+
+.neutron-title-center{
+    font-family: "Segoe-UI";
+    text-transform: uppercase !important;
+    text-align: center !important;
+}

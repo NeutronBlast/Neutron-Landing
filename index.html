@@ -1,0 +1,122 @@
+<!-- This is a free template created by the github user NeutronBlast, please don't erase this -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/neutron.css">
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <title>Neutron Landing Page</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper teal">
+            <!-- Your logo here! -->
+            <a href="#" class="brand-logo ml-nav-4 mt-2">
+                <img src="./img/Logo.png" class="responsive-img" alt="" width="100" height="100">
+            </a>
+
+            <!-- Trigger button for collapsible menu on phone view -->
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+            </ul>
+            
+            <!-- Menu that will be shown on collapsible menu only -->
+            <ul class="sidenav" id="menu-responsive">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Slider with images, you can show off amazing features -->
+
+    <div class="row-full">
+        <div class="col s12">
+            <div class="slider">
+                <ul class="slides">
+
+                    <!-- First image -->
+                    <li>
+                        <img src="./img/stock-1.jpg" alt="">
+
+                        <div class="caption right-align">
+                            <div class="row">
+                                <div class="col s12 m6 l6">
+                                </div>
+                                <div class="col s12 m6 l6">
+                                    <h4 class="black-text neutron-title-center">Lorem ipsum dolor sit amet.</h4>
+                                    <p class="text-justify black-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo eos minus commodi animi sed dicta blanditiis eligendi reprehenderit error distinctio, sunt laborum quae quasi molestias qui veritatis vel libero. Beatae.</p>
+                                    <button class="btn btn-block">action</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    
+
+                    <!-- Second image -->
+
+                    <li>
+                        <img src="./img/stock-2.jpg" alt="">
+
+                        <div class="caption left-align justify-end">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, voluptates?
+                            </h3>
+                        </div>
+                    </li>
+
+                    <!-- Third image -->
+                    <li>
+                        <img src="./img/stock-2.jpg" alt="">
+
+                        <div class="caption left-align">
+                            <div class="row">
+                                <div class="col s12 m6 l6">
+                                    <h4 class="black-text neutron-title-center">Lorem ipsum dolor sit amet.</h4>
+                                    <p class="text-justify black-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo eos minus commodi animi sed dicta blanditiis eligendi reprehenderit error distinctio, sunt laborum quae quasi molestias qui veritatis vel libero. Beatae.</p>
+                                    <button class="btn btn-block">action</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();
+
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems, {
+                height: 600,
+            });
+        });
+    </script>
+</body>
+
+</html>
